@@ -1,0 +1,113 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.App{
+  display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.navi {
+  height: 550px;
+  background-color: aqua;
+}
+.table-contaioner {
+  display: flex;
+  flex-flow: column;
+  margin-top: 1rem;
+  justify-content: center;
+  align-items: center;
+  color: gray
+}
+.table-style {
+  color: gray !important
+}
+thead {
+  border-top: 2px solid !important;
+}
+.changePercent-green {
+  color: lightgreen;
+}
+.changePercent-red {
+  color: rgb(247, 104, 104);
+}
+.coin-style, .coin-style:hover {
+  color: gray;
+  text-decoration: none;
+}
+.header-container {
+  display: flex;
+  flex-flow: row;
+  margin-top: 1rem;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+  width: 800px;
+}
+.total-info {
+  width: 800px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.info {
+  width: 800px ;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  align-items: center;
+  border-right: 2px solid lightgray;
+}
+.web-site {
+  width: 400px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  align-items: center;
+  align-self: flex-start;
+}
+.web {
+  background: lightgray;
+    border-radius: 3px;
+    padding: 5px;
+}
+.web a, .web a:hover {
+  text-decoration: none;
+  color: gray
+}
+.lds-dual-ring {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid grey;
+  border-color: grey transparent grey transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
